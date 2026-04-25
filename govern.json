@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "project_name": "NAAb-Grammar",
+  "mode": "enforce",
+  "description": "NAAb Grammar — syntax highlighting and language samples.",
+
+  "languages": {
+    "require_explicit": false,
+    "allowed": ["python", "javascript", "bash", "shell", "cpp", "rust", "go", "ruby", "csharp"]
+  },
+
+  "capabilities": {
+    "network": false,
+    "shell": true,
+    "filesystem": {
+      "allowed_paths": ["./"]
+    }
+  },
+
+  "code_quality": {
+    "no_secrets": { "enabled": true, "level": "hard" }
+  }
+}
